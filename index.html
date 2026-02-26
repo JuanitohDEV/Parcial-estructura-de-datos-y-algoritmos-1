@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name ="viewport" content ="width=device-width, initial-scale =1.0">
+        <title>Costo Total de Envio</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+      <div class="tittle">
+           <h1>Calcula El Costo Total de tu Envio</h1>
+       </div>
+     <section>
+        <div id="form-table">
+            <table>
+                <tbody>
+                    <tr>
+                        <td> Nombre </td>
+                        <td > <input type ="text" id="name" required> </td>
+                    </tr>
+                    <tr>
+                        <td> Peso del Paquete </td>
+                        <td><input type="text" id="weight" required></td>
+                    </tr>
+                    <tr>
+                        <td>Distancia</td>
+                        <td><input type ="text" id ="distance" required></td>
+                    </tr>
+                    <tr>
+                        <td>Codigo de Descuento</td>
+                        <td><input type ="text" id ="discount-code"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="submit" id ="button" value ="Calcular"> </td>
+
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+     </section>  
+     <div id="resultado" class="resultado" >
+        <h2>Resultado</h2>
+        <div id="resultado-contenido">
+
+        </div>
+    </div>
+    </body>
+    <script src="script.js"></script>
+</html>
